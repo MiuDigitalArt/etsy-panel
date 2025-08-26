@@ -18,10 +18,13 @@ node_modules/
 bower_components/
 *.tgz
 *.lock
+build/
+dist/
 
 # Dashboard build / dist
 Dashboard/dist/
 Dashboard/build/
+Dashboard/node_modules/
 
 # Test ve coverage
 coverage/
