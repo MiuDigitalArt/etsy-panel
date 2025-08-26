@@ -1,0 +1,42 @@
+# Rider ve IDE dosyaları
+.idea/
+.vscode/
+
+# .NET build çıktıları
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+
+# Publish çıktıları
+publish/
+*.log
+
+# Node modules ve geçici dosyalar
+node_modules/
+bower_components/
+*.tgz
+*.lock
+
+# Dashboard build / dist
+Dashboard/dist/
+Dashboard/build/
+
+# Test ve coverage
+coverage/
+TestResults/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Yedek dosyalar
+*.bak
+*.tmp
+
+# Geriye kalan tüm önemli dosyalar commit'e dahil edilir:
+# - Dashboard/src/
+# - wwwroot/ (dist buraya kopyalandığı için burası tutulur)
+# - package.json, appsettings.json, Program.cs vs.
