@@ -4,7 +4,7 @@ using MiuDigitalArt.Services;
 namespace MiuDigitalArt.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class OrdersController: ControllerBase
 {
     private readonly EtsyClient _etsy;

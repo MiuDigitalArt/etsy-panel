@@ -6,6 +6,8 @@ builder.Services.AddControllers();
 // Add OpenAPI/Swagger generation (but not the UI)
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHttpClient(); // IHttpClientFactory için
+
 
 // EtsyClient'ı DI container'a ekle
 builder.Services.AddSingleton<MiuDigitalArt.Services.EtsyClient>();
